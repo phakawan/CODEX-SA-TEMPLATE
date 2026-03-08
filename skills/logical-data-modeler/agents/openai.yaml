@@ -1,0 +1,4 @@
+interface:
+  display_name: "Logical Data Modeler"
+  short_description: "Design logical ER models in Mermaid with domain-first rules."
+  default_prompt: "Model business entities and relationships as a logical ER diagram in Mermaid, following naming, cardinality, and traceability standards."

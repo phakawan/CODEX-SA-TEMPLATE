@@ -1,0 +1,4 @@
+﻿interface:
+  display_name: "Design Traceability Reviewer"
+  short_description: "Review end-to-end consistency across design artifacts."
+  default_prompt: "Review requirement-to-API traceability and report severity-ranked consistency findings with file references."

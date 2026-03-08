@@ -1,0 +1,4 @@
+﻿interface:
+  display_name: "Use-Case Modeler"
+  short_description: "Build structured use cases from approved requirements."
+  default_prompt: "Create a use-case document with actors, flows, sequence diagram, entities, and requirement traceability."

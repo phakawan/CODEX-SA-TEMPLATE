@@ -1,0 +1,4 @@
+﻿interface:
+  display_name: "Requirement Analyst"
+  short_description: "Structure business requirements for downstream design flow."
+  default_prompt: "Transform the input into a requirement spec with scope, goals, FR/NFR, constraints, assumptions, and open questions."
