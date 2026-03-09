@@ -60,9 +60,11 @@ End-to-end traceability review:
 5. Generate schema in `database/schema.sql`.
 6. Design API contracts in `docs/api`.
 7. Run cross-artifact review and resolve gaps.
+8. Create/update Table of Contents files for `docs/requirements`, `docs/use-cases`, `docs/domain-model`, `docs/data-model`, `database`, and `docs/api`.
 
 ## Rules
 - Start from business requirements.
 - Do not invent business rules silently.
 - Keep naming consistent across all documents.
 - Always highlight assumptions.
+- Always create or update Table of Contents in each canonical artifact folder after content changes.
