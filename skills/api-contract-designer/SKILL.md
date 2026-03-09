@@ -16,7 +16,7 @@ Design API contracts that are traceable to business behavior and aligned with sc
 - existing contracts in `docs/api`
 
 2. Derive endpoint responsibilities.
-- define endpoint list from use-case actions
+- define endpoint list from use case actions
 - assign method/path and authorization requirements
 - separate command and query responsibilities
 
@@ -27,11 +27,13 @@ Design API contracts that are traceable to business behavior and aligned with sc
 - pagination/idempotency where applicable
 
 4. Record alignment and gaps.
-- map each endpoint to use-case steps and entities
+- map each endpoint to use case steps and entities
 - flag schema mismatches or missing data fields
 - capture assumptions and open questions
 
 5. Write output to `docs/api/<feature-name>.md`.
+- if requirements/use cases are split into sub-features, create one API contract file per sub-feature
+- examples: `docs/api/login.md`, `docs/api/membership.md`
 
 ## Output Format
 
@@ -50,6 +52,7 @@ Use this order:
 
 Before finalizing, verify:
 - every endpoint has a clear business purpose
+- every sub-feature with a use case has a matching API contract artifact
 - field naming aligns with schema and domain terms
 - authentication/authorization behavior is explicit
 - error handling is deterministic and testable

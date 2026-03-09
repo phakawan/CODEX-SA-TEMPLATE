@@ -1,4 +1,4 @@
 ﻿interface:
   display_name: "API Contract Designer"
   short_description: "Design API contracts from use cases and schema."
-  default_prompt: "Generate an API contract with endpoints, request/response/error models, auth rules, and use-case traceability."
+  default_prompt: "Generate an API contract with endpoints, request/response/error models, auth rules, and use case traceability."

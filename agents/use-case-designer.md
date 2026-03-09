@@ -22,4 +22,4 @@ Output:
 Rules:
 - use business language from requirements
 - keep naming aligned with domain entities and data model terms
-- avoid technical implementation details in use-case artifacts
+- avoid technical implementation details in use case artifacts

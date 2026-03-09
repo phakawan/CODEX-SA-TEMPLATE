@@ -7,6 +7,11 @@ Store API contracts derived from approved use cases and schema.
 - one feature per file
 - file name: `<feature-name>.md` (lowercase kebab-case)
 
+## Feature Name Examples
+- `user-authentication.md`
+- `role-permission-management.md`
+- `session-lifecycle.md`
+
 ## Required Sections
 - assumptions
 - endpoints
@@ -16,3 +21,7 @@ Store API contracts derived from approved use cases and schema.
 - authorization
 - traceability (use case -> endpoint)
 - open questions
+
+## Sub-Feature Decomposition
+- Keep one API Design file per requirement sub-feature (example: login.md, membership.md).
+

@@ -1,5 +1,10 @@
 ﻿# Data Model TOC
 
+## Feature Naming Examples
+- `user-authentication`
+- `role-permission-management`
+- `session-lifecycle`
+
 ## Feature Index
 - No feature entries yet.
 
@@ -13,3 +18,4 @@
 
 ## Notes
 - Keep feature entries aligned with `docs/data-model/AGENTS.md` naming rules.
+- Keep sub-feature names aligned with `docs/requirements` (example: `login-*`, `membership-*`).

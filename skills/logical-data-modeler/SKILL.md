@@ -33,6 +33,10 @@ Always use Mermaid ER syntax and keep outputs aligned with project data-model do
 - Include only important attributes.
 - Avoid implementation-specific tables or physical DB details.
 - Split into multiple diagrams when scope exceeds roughly 20-30 entities.
+- If requirements are split by sub-feature, produce sub-feature model files:
+  - `docs/data-model/<feature-name>-entities.md`
+  - `docs/data-model/<feature-name>-er-diagram.md`
+  - `docs/data-model/<feature-name>-data-dictionary.md`
 
 5. Align with data dictionary and entity list.
 - Ensure terms match `entities.md` and `data-dictionary.md`.
@@ -83,6 +87,7 @@ Before finalizing, verify:
 - no unjustified many-to-many relationships
 - no duplicated entities
 - no technical abstraction tables without domain justification
+- sub-feature files are consistent with requirement/use case decomposition
 
 ## Boundaries
 

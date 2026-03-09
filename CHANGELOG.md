@@ -13,11 +13,18 @@ The format is based on Keep a Changelog and this project uses Semantic Versionin
   - `docs/data-model/TOC.md`
   - `database/TOC.md`
   - `docs/api/TOC.md`
+- Repository text/encoding controls:
+  - `.editorconfig`
+  - `.gitattributes`
+  - `scripts/check-markdown-encoding.ps1`
 
 ### Changed
 - Updated `AGENTS.md` execution order to include TOC creation/update as the final step.
 - Added TOC maintenance rule in `AGENTS.md` for canonical artifact folders.
 - Refined TOC format to be feature-first, followed by file links for each feature.
+- Added multilingual markdown safety rules in `AGENTS.md`, `README.md`, and `docs/CONVENTIONS.md`.
+- Added sub-feature decomposition workflow (example: `main-feature` -> `login`, `membership`) from requirements through use cases, domain/data model, schema, and API design.
+- Updated skills and folder README/TOC guidance to enforce one artifact file per sub-feature with consistent naming across folders.
 
 ## [1.0.0] - 2026-03-09
 ### Added

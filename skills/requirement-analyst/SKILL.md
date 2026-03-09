@@ -24,7 +24,12 @@ Turn unstructured feature requests into consistent requirement artifacts that ca
 - record assumptions that need validation
 - produce open questions for unresolved policy/business choices
 
-4. Write output to `docs/requirements/<feature-name>.md`.
+4. Decompose parent feature into sub-features when needed.
+- if a parent file (example: `main-feature.md`) contains multiple sub-features, create one file per sub-feature
+- example outputs: `docs/requirements/login.md`, `docs/requirements/membership.md`
+- keep each sub-feature independently testable and traceable
+
+5. Write output to `docs/requirements/<feature-name>.md`.
 - use lowercase kebab-case for `<feature-name>`
 - preserve naming consistency with existing domain terms
 
@@ -46,6 +51,7 @@ Before finalizing, verify:
 - each requirement statement is testable and unambiguous
 - assumptions are clearly separated from confirmed requirements
 - requirement terms match downstream artifacts
+- parent/sub-feature split is explicit when multiple business capabilities exist
 
 ## Boundaries
 

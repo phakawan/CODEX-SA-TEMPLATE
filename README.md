@@ -1,5 +1,8 @@
 ﻿# Enterprise Software Analysis and Design Multi-Agent Template
 
+[![Version](https://img.shields.io/badge/version-v1.0.1-blue.svg)](https://github.com/phakawan/CODEX-SA-TEMPLATE/releases/tag/v1.0.1)
+[![Last Updated](https://img.shields.io/badge/last%20updated-2026--03--09-success.svg)](https://github.com/phakawan/CODEX-SA-TEMPLATE/commits/main)
+
 A GitHub-ready template for running Software Analysis and Design with AI agents + human review.
 
 ## What This Template Provides
@@ -20,14 +23,14 @@ A GitHub-ready template for running Software Analysis and Design with AI agents 
 - `agents/`: lightweight role definitions for each design stage
 - `skills/`: reusable skill instructions (`SKILL.md`) + agent metadata (`agents/openai.yaml`)
 - `docs/requirements/`: business requirements artifacts
-- `docs/use-cases/`: use-case artifacts
+- `docs/use-cases/`: use case artifacts
 - `docs/domain-model/`: domain model artifacts
 - `docs/data-model/`: entity list, ER diagram, data dictionary
 - `docs/api/`: API contract artifacts
 
 ## Included Skills
 - `requirement-analyst`: structure business requirements
-- `use-case-modeler`: produce use-case specs and flow mapping
+- `use-case-modeler`: produce use case specs and flow mapping
 - `logical-data-modeler`: design logical data models in Mermaid ER
 - `api-contract-designer`: design API contracts from use cases + schema
 - `design-traceability-reviewer`: validate end-to-end traceability
@@ -46,7 +49,7 @@ A GitHub-ready template for running Software Analysis and Design with AI agents 
 - Always highlight assumptions.
 
 ## Versioning
-- Current version: `v1.0.0`
+- Current version: `v1.0.1`
 - See `CHANGELOG.md` for release details.
 
 ## Recommended Contribution Flow
@@ -55,5 +58,11 @@ A GitHub-ready template for running Software Analysis and Design with AI agents 
 3. Submit PR with assumptions and unresolved questions.
 4. Run reviewer skill before merge.
 
+## Multilingual Markdown Safety
+- Markdown files are standardized to UTF-8.
+- Run the encoding check before commit:
+  - `powershell -ExecutionPolicy Bypass -File scripts/check-markdown-encoding.ps1`
+
 ## License
 Choose and add your organization's preferred license before production use.
+

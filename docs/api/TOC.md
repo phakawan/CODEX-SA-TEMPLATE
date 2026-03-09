@@ -1,5 +1,10 @@
 ﻿# API Design TOC
 
+## Feature Naming Examples
+- `user-authentication`
+- `role-permission-management`
+- `session-lifecycle`
+
 ## Feature Index
 - No feature entries yet.
 
@@ -11,3 +16,4 @@
 
 ## Notes
 - Add one API contract document per feature using `<feature-name>.md`.
+- Keep sub-feature names aligned with `docs/requirements` (example: `login.md`, `membership.md`).

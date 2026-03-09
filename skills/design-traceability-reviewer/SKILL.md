@@ -26,6 +26,7 @@ Audit cross-document consistency so each downstream artifact is justified by ups
 3. Evaluate consistency risks.
 - naming drift and duplicated concepts
 - missing requirement coverage
+- parent feature exists but sub-feature artifacts are missing in downstream folders
 - relationship/cardinality mismatches
 - schema/API misalignment
 - undocumented assumptions
@@ -51,6 +52,7 @@ Before finalizing, verify:
 - severity reflects business/implementation risk
 - suggested actions are specific and feasible
 - report distinguishes facts vs assumptions
+- parent/sub-feature decomposition is consistently reflected from requirements to API/schema
 
 ## Boundaries
 

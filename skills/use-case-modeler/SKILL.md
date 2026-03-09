@@ -1,17 +1,17 @@
 ﻿---
 name: use-case-modeler
-description: Convert requirement specs into structured use-case documents at `docs/use-cases/*.md` with explicit flows, assumptions, and traceability.
+description: Convert requirement specs into structured use case documents at `docs/use-cases/*.md` with explicit flows, assumptions, and traceability.
 ---
 
 # Use-Case Modeler
 
-Create complete use-case artifacts from approved requirements to guide domain, data, and API design.
+Create complete use case artifacts from approved requirements to guide domain, data, and API Design.
 
 ## Workflow
 
 1. Gather source context from:
 - `docs/requirements/<feature-name>.md`
-- existing use-case files in `docs/use-cases`
+- existing use case files in `docs/use-cases`
 - domain terms in `docs/domain-model` and `docs/data-model/entities.md`
 
 2. Identify actors and boundaries.
@@ -25,11 +25,13 @@ Create complete use-case artifacts from approved requirements to guide domain, d
 - include Mermaid `sequenceDiagram` where useful
 
 4. Add traceability and unresolved points.
-- map requirements to use-case steps
+- map requirements to use case steps
 - list related entities and assumptions
 - capture open questions for missing business policy
 
 5. Write output to `docs/use-cases/<feature-name>.md`.
+- if requirements were decomposed into sub-features, create matching use case files for each sub-feature
+- examples: `docs/use-cases/login.md`, `docs/use-cases/membership.md`
 
 ## Output Format
 
@@ -50,6 +52,7 @@ Use this order:
 
 Before finalizing, verify:
 - every use case maps back to at least one requirement
+- every sub-feature requirement has a corresponding use case file
 - flows are deterministic and free of implementation detail
 - exception handling is explicit for high-risk steps
 - entity naming matches data model artifacts
@@ -58,5 +61,5 @@ Before finalizing, verify:
 
 Do not:
 - invent new business policy without marking assumption
-- embed schema or API payload details in use-case text
+- embed schema or API payload details in use case text
 - skip edge-case behavior for security-critical paths
